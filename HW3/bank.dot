@@ -1,0 +1,31 @@
+digraph Tree {
+0 [label="duration <= 645.5000\nmse = 0.101959735592\nsamples = 4521", shape="box"] ;
+1 [label="is_poutcome_success? <= 0.5000\nmse = 0.0752189496927\nsamples = 4162", shape="box"] ;
+0 -> 1 ;
+2 [label="duration <= 222.5000\nmse = 0.0611928935575\nsamples = 4047", shape="box"] ;
+1 -> 2 ;
+3 [label="mse = 0.0241\nsamples = 2628\nvalue = [ 0.02473364]", shape="box"] ;
+2 -> 3 ;
+4 [label="mse = 0.1211\nsamples = 1419\nvalue = [ 0.14094433]", shape="box"] ;
+2 -> 4 ;
+5 [label="duration <= 180.5000\nmse = 0.224120982987\nsamples = 115", shape="box"] ;
+1 -> 5 ;
+6 [label="mse = 0.2140\nsamples = 29\nvalue = [ 0.31034483]", shape="box"] ;
+5 -> 6 ;
+7 [label="mse = 0.1721\nsamples = 86\nvalue = [ 0.77906977]", shape="box"] ;
+5 -> 7 ;
+8 [label="is_marital_married? <= 0.5000\nmse = 0.249998060226\nsamples = 359", shape="box"] ;
+0 -> 8 ;
+9 [label="is_day_18? <= 0.5000\nmse = 0.236338336988\nsamples = 154", shape="box"] ;
+8 -> 9 ;
+10 [label="mse = 0.2413\nsamples = 145\nvalue = [ 0.59310345]", shape="box"] ;
+9 -> 10 ;
+11 [label="mse = 0.0000\nsamples = 9\nvalue = [ 1.]", shape="box"] ;
+9 -> 11 ;
+12 [label="is_contact_cellular? <= 0.5000\nmse = 0.242712671029\nsamples = 205", shape="box"] ;
+8 -> 12 ;
+13 [label="mse = 0.2062\nsamples = 86\nvalue = [ 0.29069767]", shape="box"] ;
+12 -> 13 ;
+14 [label="mse = 0.2500\nsamples = 119\nvalue = [ 0.50420168]", shape="box"] ;
+12 -> 14 ;
+}
